@@ -92,6 +92,10 @@ html {
 
 /* INFO SECTION */
 
+.information-section {
+  margin-bottom: 6.4rem;
+}
+
 .information-heading {
   text-align: center;
   font-size: 3.6rem;
@@ -111,8 +115,86 @@ html {
   height: 200px;
 
   border-radius: 9px;
+  margin-bottom: 1.2rem;
 }
 
 .info-text {
   text-align: center;
+  font-size: 1.6rem;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.quote {
+  font-size: 3.6rem;
+  font-style: italic;
+  color: #1f2937;
+
+  margin-bottom: 3.2rem;
+}
+
+.author {
+  text-align: end;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* CTA SECTION */
+
+.cta-wrapper {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  background-color: #3882f6;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.cta-text {
+  padding: 2.4rem 0;
+}
+
+.cta-heading {
+  font-size: 2.4rem;
+  color: #f9faf8;
+}
+
+.cta-subheading {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+
+  font-size: 1.6rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #1f2937;
+
+  text-align: center;
+  font-size: 1.4rem;
+  color: #f9faf8;
 }
